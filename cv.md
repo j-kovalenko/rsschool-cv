@@ -16,6 +16,43 @@ I know Python and have experience in these libraries:
 
 Still writing some projects and learning JavaScript in RS School. 
 
+## Code examples
+**Python:**
+```python
+def caesar_cipher(word, shift=3):
+    result = ''
+    for i in range(0, len(word)):
+        if ord('А') <= ord(word[i]) <= ord('Я'):
+            char = ((ord(word[i]) + shift - ord('А')) % 32) + ord('А')
+            result += chr(char)
+        elif ord('а') <= ord(word[i]) <= ord('я'):
+            char = ((ord(word[i]) + shift - ord('а')) % 32) + ord('а')
+            result += chr(char)
+        else:
+            result += word[i]
+    return result
+```
+**JavaScript:**
+```javascript
+function caesar_cipher(word, shift=3) {
+    let result = "";
+    for (let i = 0; i < word.length; i++){
+        if ('A'.charCodeAt(0) <= word[i].charCodeAt(0) && word[i].charCodeAt(0) <= 'Z'.charCodeAt(0)) {
+            let char = ((word[i].charCodeAt(0) + shift - 'A'.charCodeAt(0)) % 26) + 'A'.charCodeAt(0)
+            result = result + String.fromCharCode(char);
+        }
+        else if ('a'.charCodeAt(0) <= word[i].charCodeAt(0) && word[i].charCodeAt(0) <= 'z'.charCodeAt(0)) {
+            let char = ((word[i].charCodeAt(0) + shift - 'a'.charCodeAt(0)) % 26) + 'a'.charCodeAt(0)
+            result = result + String.fromCharCode(char);
+        }
+        else {
+            result = result + word[i];
+        }
+    }
+    return result
+}
+```
+
 ## Work experience
 I have a few study projects:
 * [basic-shop](https://github.com/j-kovalenko/basic-shop)
