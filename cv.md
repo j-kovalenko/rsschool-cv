@@ -1,5 +1,9 @@
 # Pelageia Stadnik
 not-even-a-junior software developer
+
+## About me
+I am 15 years old and I don't work. My goal is to become a full-stack developer. I think that my biggest advantage is a desire to learn - I love studying something new. Also I love watching how something that I do become better - that's why I like programming.
+
 ## Contacts
 * [Instagram](https://instagram.com/jkovalenk0)
 * [GitHub](https://github.com/j-kovalenko)
