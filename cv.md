@@ -29,11 +29,11 @@ Still writing some projects and learning JavaScript in RS School.
 def caesar_cipher(word, shift=3):
     result = ''
     for i in range(0, len(word)):
-        if ord('А') <= ord(word[i]) <= ord('Я'):
-            char = ((ord(word[i]) + shift - ord('А')) % 32) + ord('А')
+        if ord('A') <= ord(word[i]) <= ord('Z'):
+            char = ((ord(word[i]) + shift - ord('A')) % 32) + ord('A')
             result += chr(char)
-        elif ord('а') <= ord(word[i]) <= ord('я'):
-            char = ((ord(word[i]) + shift - ord('а')) % 32) + ord('а')
+        elif ord('a') <= ord(word[i]) <= ord('z'):
+            char = ((ord(word[i]) + shift - ord('a')) % 32) + ord('a')
             result += chr(char)
         else:
             result += word[i]
@@ -75,6 +75,6 @@ I have just finished Yandex Lyceum: two-year course for schoolers. I've learnt P
 I have completed lower secondary school education.
 
 ## Language background
-I have passed OGE(russian exam after 9th grade) of english with a grade point 5. It means, that I have at least A2-B1 level.
+I have passed OGE(russian exam after 9th grade) of english with a grade point 5. It means that I have at least A2-B1 level.
 
 I also have been studying Chinese and have about A1 level.
