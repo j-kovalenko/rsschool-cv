@@ -1,5 +1,7 @@
 # Pelageia Stadnik
 not-even-a-junior software developer
+
+
 ![me](https://i.imgur.com/d1eSMAV.jpg "my photo")
 
 ## About me
