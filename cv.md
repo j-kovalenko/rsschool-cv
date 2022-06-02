@@ -66,3 +66,8 @@ I have a few study projects:
 I have just finished Yandex Lyceum: two-year course for schoolers. I've learnt Python there. You can find my certificate [here](https://lyceum.yandex.ru/certificate/check/?certNumber=220243973&lastName=%D0%A1%D1%82%D0%B0%D0%B4%D0%BD%D0%B8%D0%BA).
 
 I have completed lower secondary school education.
+
+## Language background
+I have passed OGE(russian exam after 9th grade) of english with a grade point 5. It means, that I have at least A2-B1 level.
+
+I also have been studying Chinese and have about A1 level.
