@@ -36,11 +36,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    -webkit-text-size-adjust: 100%;
   }
 
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
   }
 
 .nav-list {
@@ -73,7 +76,7 @@ html {
   }
   
 .section {
-    width: 50%;
+    width: 75%;
   }
 
 .section-title {
@@ -95,6 +98,16 @@ h2.section-title {
 
 .section-content {
     font-family: 'open_sanssemibold';
+}
+
+.sect1 {
+    width: 35%;
+    height: 100vh;
+}
+
+.sect2 {
+    width: 50%;
+    height: 100vh;
 }
 * {
     box-sizing: border-box;
