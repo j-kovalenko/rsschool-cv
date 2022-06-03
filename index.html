@@ -24,137 +24,150 @@
     <main class="main">
       <div class="container">
         <section class="sect1">
-            <section class="photo">
-                <img src="my_photo.jpg">
-            </section>
-            <section class="section" id="contacts">
-                <h2 class="section-title">Contacts</h2>
-                <div class="section-content">
-                    <ul>
-                        <li><a class="link" href="https://instagram.com/jkovalenk0">instagram</a></li>
-                        <li><a class="link" href="https://github.com/j-kovalenko">github</a></li>
-                        <li><a class="link" href="https://discord.com/users/799527149458948096">discord</a></li>
-                        <li><a class="link" href="https://t.me/jkovalenk0">telegram</a></li>
-                    </ul>
-                </div>
-            </section>
+          <section class="my-photo">
+            <img src="my_photo.jpg">
+          </section>
+          <section class="section" id="contacts">
+            <h2 class="section-title">Contacts</h2>
             <hr>
-            <section class="section" id="skills">
-                <h2 class="section-title">Skills</h2>
-                <div class="section-content">
-                    <p>I know Python and have experience in these libraries:</p>
-                    <ul>
-                        <li>PyQt5 (3/5)</li>
-                        <li>PyGame (3/5)</li>
-                        <li>Flask (4/5)</li>
-                        <li>requests (2/5)</li>
-                        <li>python-telegram-bot (1/5)</li>
-                    </ul>
-                    <p>Still writing some projects and learning JavaScript in RS School.</p>
-                </div>
-            </section>
+            <div class="section-content">
+              <ul>
+                <li><a class="link" href="https://instagram.com/jkovalenk0">instagram</a></li>
+                <li><a class="link" href="https://github.com/j-kovalenko">github</a></li>
+                <li><a class="link" href="https://discord.com/users/799527149458948096">discord</a></li>
+                <li><a class="link" href="https://t.me/jkovalenk0">telegram</a></li>
+              </ul>
+            </div>
+          </section>
+          <section class="section" id="skills">
             <hr>
-            <section class="section" id="courses">
-                <h2 class="section-title">Education</h2>
-                <div class="section-content">
-                    <ul>
-                        <li>Yandex Lyceum: Python. 2020-2022. <a class="link" href="">Certificate</a> (with honors)</li>
-                        <li>RS School - currently studying(since 03/06/2022)</li>
-                        <li>Lower secondary school education</li>
-                    </ul>
-                </div>
-            </section>
+            <h2 class="section-title">Skills</h2>
             <hr>
-            <section class="section" id="languages">
-                <h2 class="section-title">Language background</h2>
-                <div class="section-content">
-                    <ul>
-                        <li>English: B1</li>
-                        <li>Chinese: A1</li>
-                        <li>Finnish: interested, know basics</li>
-                    </ul>
-                </div>
-            </section>
+            <div class="section-content">
+              <p>I know Python and have experience in these libraries:</p>
+              <ul>
+                <li>PyQt5 (3/5)</li>
+                <li>PyGame (3/5)</li>
+                <li>Flask (4/5)</li>
+                <li>requests (2/5)</li>
+                <li>python-telegram-bot (1/5)</li>
+              </ul>
+              <p>Still writing some projects and learning JavaScript in RS School.</p>
+            </div>
+          </section>
+          <section class="section" id="courses">
             <hr>
+            <h2 class="section-title">Education</h2>
+            <hr>
+            <div class="section-content">
+              <ul>
+                <li>Yandex Lyceum: Python. 2020-2022. <a class="link" href="">Certificate</a> (with honors)</li>
+                <li>RS School - currently studying(since 03/06/2022)</li>
+                <li>Lower secondary school education</li>
+              </ul>
+            </div>
+          </section>
+          <section class="section" id="languages">
+            <hr>
+            <h2 class="section-title">Language background</h2>
+            <hr>
+            <div class="section-content">
+              <ul>
+                <li>English: B1</li>
+                <li>Chinese: A1</li>
+                <li>Finnish: interested, know basics</li>
+              </ul>
+            </div>
+          </section>
         </section>
-        <hr>
         <section class="sect2">
-            <section class="section" id="profile">
-                <h1 class="section-title">Pelageia <b>Stadnik</b></h1>
-            </section>
+          <section class="section" id="profile">
+            <h1 class="section-title">Pelageia <br><b>Stadnik</b></h1>
+          </section>
+          <section class="section" id="summary">
             <hr>
-            <section class="section" id="summary">
-                <h2 class="section-title">About me</h2>
-                <div class="section-content">
-                    <p>My goal is to become a full-stack developer. 
-                        I think that my biggest advantage is a desire to learn - I love studying something new. 
-                        Also I love watching how something that I do become better - that&apos;s why I like programming.</p>
-                </div>
-            </section>
+            <h2 class="section-title">About me</h2>
             <hr>
-            <section class="section" id="code">
-                <h2 class="section-title">Code examples</h2>
-                <div class="section-content">
-                    <p><b>Python: </b></p>
-                    <code>def caesar_cipher(word, shift=3):<br>
-                        result = ''<br>
-                        for i in range(0, len(word)):<br>
-                        &emsp;if ord('A') <= ord(word[i]) <= ord('Z'):<br>
-                        &emsp;&emsp;char = ((ord(word[i]) + shift - ord('A')) % 32) + ord('A')<br>
-                        &emsp;&emsp;result += chr(char)<br>
-                        &emsp;elif ord('a') <= ord(word[i]) <= ord('z'):<br>
-                        &emsp;&emsp;char = ((ord(word[i]) + shift - ord('a')) % 32) + ord('a')<br>
-                        &emsp;&emsp;result += chr(char)<br>
-                        &emsp;else:<br>
-                        &emsp;&emsp;result += word[i]<br>
-                        &emsp;return result</code>
-                    <p><b>JavaScript: </b></p>
-                    <code>
-                        function caesar_cipher(word, shift=3) { <br>
-                        &emsp;let result = ""; <br>
-                        &emsp;for (let i = 0; i < word.length; i++){
-                        &emsp;&emsp;if ('A'.charCodeAt(0) <= word[i].charCodeAt(0) && word[i].charCodeAt(0) <= 'Z'.charCodeAt(0)) { <br>
-                        &emsp;&emsp;&emsp;let char = ((word[i].charCodeAt(0) + shift - 'A'.charCodeAt(0)) % 26) + 'A'.charCodeAt(0) <br>
-                        &emsp;&emsp;&emsp;result = result + String.fromCharCode(char); <br>
-                        &emsp;&emsp;} <br>
-                        &emsp;&emsp;else if ('a'.charCodeAt(0) <= word[i].charCodeAt(0) && word[i].charCodeAt(0) <= 'z'.charCodeAt(0)) { <br>
-                        &emsp;&emsp;&emsp;let char = ((word[i].charCodeAt(0) + shift - 'a'.charCodeAt(0)) % 26) + 'a'.charCodeAt(0) <br>
-                        &emsp;&emsp;&emsp;result = result + String.fromCharCode(char); <br>
-                        &emsp;&emsp;} <br>
-                        &emsp;&emsp;else { <br>
-                        &emsp;&emsp;&emsp;result = result + word[i]; <br>
-                        &emsp;&emsp;} <br>
-                        &emsp;} <br>
-                        &emsp;return result
-                        }
-                    </code>
-                </div>
-            </section>
+            <div class="section-content">
+              <p>My goal is to become a full-stack developer. 
+                I think that my biggest advantage is a desire to learn - I love studying something new. 
+                Also I love watching how something that I do become better - that&apos;s why I like programming.
+              </p>
+            </div>
+          </section>
+          <section class="section" id="code">
             <hr>
-            <section class="section" id="projects">
-                <h2 class="section-title">Work experience</h2>
-                <div class="section-content">
-                    <p>I have a few study projects:</p>
-                    <ul>
-                        <li>
-                            <a class="link" href="">basic-shop</a>
-                            <ul>
-                                <li>Written on python, flask. Used sqlalchemy, deployed on heroku.</li>
-                                <li><a class="link" href="">Deployed</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a class="link" href="">speedtest</a>
-                            <ul><li>Written on python, PyQt5.</li></ul>
-                        </li>
-                        <li>
-                            <a class="link" href="">coffee-game</a>
-                            <ul><li>Written on python, PyGame.</li></ul>
-                        </li>
-                    </ul>
-                </div>
-            </section>
+            <h2 class="section-title">Code examples</h2>
             <hr>
+            <div class="section-content">
+              <p><b>Python: </b></p>
+              <div class="code-cont">
+                <code>def caesar_cipher(word, shift=3):<br>
+                result = ''<br>
+                for i in range(0, len(word)):<br>
+                &emsp;if ord('A') <= ord(word[i]) <= ord('Z'):<br>
+                &emsp;&emsp;char = ((ord(word[i]) + shift - ord('A')) % 32) + ord('A')<br>
+                &emsp;&emsp;result += chr(char)<br>
+                &emsp;elif ord('a') <= ord(word[i]) <= ord('z'):<br>
+                &emsp;&emsp;char = ((ord(word[i]) + shift - ord('a')) % 32) + ord('a')<br>
+                &emsp;&emsp;result += chr(char)<br>
+                &emsp;else:<br>
+                &emsp;&emsp;result += word[i]<br>
+                &emsp;return result</code>
+              </div>
+              <p><b>JavaScript: </b></p>
+              <div class="code-cont">
+                <code>
+                function caesar_cipher(word, shift=3) { <br>
+                &emsp;let result = ""; <br>
+                &emsp;for (let i = 0; i < word.length; i++){
+                &emsp;&emsp;if ('A'.charCodeAt(0) <= word[i].charCodeAt(0) && word[i].charCodeAt(0) <= 'Z'.charCodeAt(0)) { <br>
+                &emsp;&emsp;&emsp;let char = ((word[i].charCodeAt(0) + shift - 'A'.charCodeAt(0)) % 26) + 'A'.charCodeAt(0) <br>
+                &emsp;&emsp;&emsp;result = result + String.fromCharCode(char); <br>
+                &emsp;&emsp;} <br>
+                &emsp;&emsp;else if ('a'.charCodeAt(0) <= word[i].charCodeAt(0) && word[i].charCodeAt(0) <= 'z'.charCodeAt(0)) { <br>
+                &emsp;&emsp;&emsp;let char = ((word[i].charCodeAt(0) + shift - 'a'.charCodeAt(0)) % 26) + 'a'.charCodeAt(0) <br>
+                &emsp;&emsp;&emsp;result = result + String.fromCharCode(char); <br>
+                &emsp;&emsp;} <br>
+                &emsp;&emsp;else { <br>
+                &emsp;&emsp;&emsp;result = result + word[i]; <br>
+                &emsp;&emsp;} <br>
+                &emsp;} <br>
+                &emsp;return result
+                }
+                </code>
+              </div>
+            </div>
+          </section>
+          <section class="section" id="projects">
+            <hr>
+            <h2 class="section-title">Work experience</h2>
+            <hr>
+            <div class="section-content">
+              <p>I have a few study projects:</p>
+              <ul>
+                <li>
+                  <a class="link" href="">basic-shop</a>
+                  <ul>
+                    <li>Written on python, flask. Used sqlalchemy, deployed on heroku.</li>
+                    <li><a class="link" href="">Deployed</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="link" href="">speedtest</a>
+                  <ul>
+                    <li>Written on python, PyQt5.</li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="link" href="">coffee-game</a>
+                  <ul>
+                    <li>Written on python, PyGame.</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </section>
         </section>
       </div>
     </main>
@@ -162,4 +175,4 @@
       <!-- <div class="container">This is a footer</div> -->
     </footer>
   </body>
-</html> 
+</html>

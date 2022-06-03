@@ -66,8 +66,12 @@ html {
     line-height: 50px;
   }
 
-.nav-link:hover {
+.nav-link {
     transition: .3s;
+    text-decoration: none;
+    font-weight: bold;
+    color: #282A2B;
+    transition: color 0.5s;
   }
 
 .main-container {
@@ -77,13 +81,15 @@ html {
   
 .section {
     width: 75%;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
 .section-title {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #865A3E;
+    color: #282A2B;
   }
 
 h1.section-title {
@@ -102,12 +108,12 @@ h2.section-title {
 }
 
 .sect1 {
-    width: 35%;
+    width: 40%;
     background-color: #d4d4d4;
 }
 
 .sect2 {
-    width: 50%;
+    width: 60%;
 }
 
 code {
@@ -140,6 +146,20 @@ hr {
 .link:hover {
     color: #282a2b;
   }
+
+.my-photo {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #282A2B;
+}
+
+div.code-cont {
+    background-color: #282A2B;
+    color: chartreuse;
+    padding: 10px;
+    /* font-weight: bold; */
+}
 
 * {
     box-sizing: border-box;
