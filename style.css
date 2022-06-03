@@ -58,11 +58,12 @@ html {
   }
 
 .nav-link {
+    font-family: 'montserratregular';
     padding: 0 20px;
     line-height: 50px;
   }
 
-.nav-link:hover {
+.nav-link::hover {
     transition: .3s;
   }
 
