@@ -66,7 +66,7 @@ html {
     line-height: 50px;
   }
 
-.nav-link::hover {
+.nav-link:hover {
     transition: .3s;
   }
 
@@ -83,12 +83,13 @@ html {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #282A2B;
+    color: #865A3E;
   }
 
 h1.section-title {
     font-family: 'josefin_sansregular';
-    font-size: 30px;
+    font-size: 50px;
+    text-align: right;
 }
 
 h2.section-title {
@@ -102,13 +103,44 @@ h2.section-title {
 
 .sect1 {
     width: 35%;
-    height: 100vh;
+    background-color: #d4d4d4;
 }
 
 .sect2 {
     width: 50%;
-    height: 100vh;
 }
+
+code {
+    font-family: MyFancyCustomFont, monospace;
+    font-size: inherit;
+  }
+  
+  /* Code in text */
+  p > code,
+  li > code,
+  dd > code,
+  td > code {
+    background: #ffeff0;
+    word-wrap: break-word;
+    box-decoration-break: clone;
+    padding: .1rem .3rem .2rem;
+    border-radius: .2rem;
+  }
+
+hr {
+    border-top: 1px solid #865A3E
+}
+
+.link {
+    text-decoration: none;
+    color: #573827;
+    transition: color 0.5s;
+  }
+  
+.link:hover {
+    color: #282a2b;
+  }
+
 * {
     box-sizing: border-box;
   }
