@@ -182,6 +182,11 @@ div.code-cont {
   text-decoration: none;
 }
 
+.footer-text {
+    color: white;
+    font-family: "montserratregular", monospace;
+}
+
 * {
     box-sizing: border-box;
   }
