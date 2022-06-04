@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>CV</title>
@@ -24,10 +24,10 @@
     </header>
     <main class="main">
       <div class="container">
-        <section class="sect1">
-          <section class="my-photo">
+        <div class="sect1">
+          <div class="my-photo">
             <img src="my_photo.jpg" alt="my avatar">
-          </section>
+          </div>
           <section class="section" id="contacts">
             <h2 class="section-title">Contacts</h2>
             <hr>
@@ -80,8 +80,8 @@
               </ul>
             </div>
           </section>
-        </section>
-        <section class="sect2">
+        </div>
+        <div class="sect2">
           <section class="section" id="profile">
             <h1 class="section-title">Pelageia <br><b>Stadnik</b></h1>
           </section>
@@ -106,10 +106,10 @@
                 <code>def caesar_cipher(word, shift=3):<br>
                 result = ''<br>
                 for i in range(0, len(word)):<br>
-                &emsp;if ord('A') <= ord(word[i]) <= ord('Z'):<br>
+                &emsp;if ord('A') &lt;= ord(word[i]) &lt;= ord('Z'):<br>
                 &emsp;&emsp;char = ((ord(word[i]) + shift - ord('A')) % 32) + ord('A')<br>
                 &emsp;&emsp;result += chr(char)<br>
-                &emsp;elif ord('a') <= ord(word[i]) <= ord('z'):<br>
+                &emsp;elif ord('a') &lt;= ord(word[i]) &lt;= ord('z'):<br>
                 &emsp;&emsp;char = ((ord(word[i]) + shift - ord('a')) % 32) + ord('a')<br>
                 &emsp;&emsp;result += chr(char)<br>
                 &emsp;else:<br>
@@ -121,12 +121,12 @@
                 <code>
                 function caesar_cipher(word, shift=3) { <br>
                 &emsp;let result = ""; <br>
-                &emsp;for (let i = 0; i < word.length; i++){
-                &emsp;&emsp;if ('A'.charCodeAt(0) <= word[i].charCodeAt(0) && word[i].charCodeAt(0) <= 'Z'.charCodeAt(0)) { <br>
+                &emsp;for (let i = 0; i &lt; word.length; i++){
+                &emsp;&emsp;if ('A'.charCodeAt(0) &lt;= word[i].charCodeAt(0) && word[i].charCodeAt(0) &lt;= 'Z'.charCodeAt(0)) { <br>
                 &emsp;&emsp;&emsp;let char = ((word[i].charCodeAt(0) + shift - 'A'.charCodeAt(0)) % 26) + 'A'.charCodeAt(0) <br>
                 &emsp;&emsp;&emsp;result = result + String.fromCharCode(char); <br>
                 &emsp;&emsp;} <br>
-                &emsp;&emsp;else if ('a'.charCodeAt(0) <= word[i].charCodeAt(0) && word[i].charCodeAt(0) <= 'z'.charCodeAt(0)) { <br>
+                &emsp;&emsp;else if ('a'.charCodeAt(0) &lt;= word[i].charCodeAt(0) && word[i].charCodeAt(0) &lt;= 'z'.charCodeAt(0)) { <br>
                 &emsp;&emsp;&emsp;let char = ((word[i].charCodeAt(0) + shift - 'a'.charCodeAt(0)) % 26) + 'a'.charCodeAt(0) <br>
                 &emsp;&emsp;&emsp;result = result + String.fromCharCode(char); <br>
                 &emsp;&emsp;} <br>
@@ -169,7 +169,7 @@
               </ul>
             </div>
           </section>
-        </section>
+        </div>
       </div>
     </main>
     <footer class="footer">
