@@ -158,7 +158,28 @@ div.code-cont {
     background-color: #282A2B;
     color: chartreuse;
     padding: 10px;
-    /* font-weight: bold; */
+}
+
+.footer {
+    padding-top: 30px;
+    text-align: center;
+    background-color: #282A2B;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px !important;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  text-decoration: none;
 }
 
 * {
