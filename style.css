@@ -1,23 +1,23 @@
 @font-face {
     font-family: 'josefin_sansregular';
-    src: url('fonts/josefinsans-regular-webfont.woff2') format('woff2'),
-         url('fonts/josefinsans-regular-webfont.woff') format('woff');
+    src: url('assets/fonts/josefinsans-regular-webfont.woff2') format('woff2'),
+         url('assets/fonts/josefinsans-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'montserratregular';
-    src: url('fonts/montserrat-regular-webfont.woff2') format('woff2'),
-         url('fonts/montserrat-regular-webfont.woff') format('woff');
+    src: url('assets/fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('assets/fonts/montserrat-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'open_sanssemibold';
-    src: url('fonts/opensans-semibold-webfont.woff2') format('woff2'),
-         url('fonts/opensans-semibold-webfont.woff') format('woff');
+    src: url('assets/fonts/opensans-semibold-webfont.woff2') format('woff2'),
+         url('assets/fonts/opensans-semibold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
