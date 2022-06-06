@@ -1,169 +1,166 @@
 @font-face {
-    font-family: 'josefin_sansregular';
-    src: url('assets/fonts/josefinsans-regular-webfont.woff2') format('woff2'),
-         url('assets/fonts/josefinsans-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: "josefin_sansregular";
+  src: url("assets/fonts/josefinsans-regular-webfont.woff2") format("woff2"),
+    url("assets/fonts/josefinsans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-    font-family: 'montserratregular';
-    src: url('assets/fonts/montserrat-regular-webfont.woff2') format('woff2'),
-         url('assets/fonts/montserrat-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: "montserratregular";
+  src: url("assets/fonts/montserrat-regular-webfont.woff2") format("woff2"),
+    url("assets/fonts/montserrat-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-    font-family: 'open_sanssemibold';
-    src: url('assets/fonts/opensans-semibold-webfont.woff2') format('woff2'),
-         url('assets/fonts/opensans-semibold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: "open_sanssemibold";
+  src: url("assets/fonts/opensans-semibold-webfont.woff2") format("woff2"),
+    url("assets/fonts/opensans-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @media (max-width: 768px) {
-    .section {
-      width: 100%;
-    }
+  .section {
+    width: 100%;
   }
+}
 
 body {
-    min-height: 100vh;
-    margin: 0; 
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    -webkit-text-size-adjust: 100%;
-  }
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  -webkit-text-size-adjust: 100%;
+}
 
 .container {
-    max-width: 1440px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-  }
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
 
 .nav-list {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
 
 html {
-    scroll-behavior: smooth; 
-  }
+  scroll-behavior: smooth;
+}
 
 .nav-list {
-    list-style: none;
-  }
+  list-style: none;
+}
 
 .nav-link {
-    font-family: 'montserratregular';
-    padding: 0 20px;
-    line-height: 50px;
-  }
+  font-family: "montserratregular";
+  padding: 0 20px;
+  line-height: 50px;
+}
 
 .nav-link {
-    transition: .3s;
-    text-decoration: none;
-    font-weight: bold;
-    color: #282A2B;
-    transition: color 0.5s;
-  }
+  transition: 0.3s;
+  text-decoration: none;
+  font-weight: bold;
+  color: #282a2b;
+  transition: color 0.5s;
+}
 
 .main-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .section {
-    width: 75%;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
+  width: 75%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
 .section-title {
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    color: #282A2B;
-  }
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #282a2b;
+}
 
 h1.section-title {
-    font-family: 'josefin_sansregular';
-    font-size: 50px;
-    text-align: right;
+  font-family: "josefin_sansregular";
+  font-size: 50px;
+  text-align: right;
 }
 
 h2.section-title {
-    font-family: 'montserratregular';
-    font-size: 20px;
+  font-family: "montserratregular";
+  font-size: 20px;
 }
 
 .section-content {
-    font-family: 'open_sanssemibold';
+  font-family: "open_sanssemibold";
 }
 
 .sect1 {
-    width: 40%;
-    background-color: #d4d4d4;
+  width: 40%;
+  background-color: #d4d4d4;
 }
 
 .sect2 {
-    width: 60%;
+  width: 60%;
 }
 
 code {
-    font-family: MyFancyCustomFont, monospace;
-    font-size: inherit;
-  }
-  
-  /* Code in text */
-  p > code,
-  li > code,
-  dd > code,
-  td > code {
-    background: #ffeff0;
-    word-wrap: break-word;
-    box-decoration-break: clone;
-    padding: .1rem .3rem .2rem;
-    border-radius: .2rem;
-  }
+  font-family: MyFancyCustomFont, monospace;
+  font-size: inherit;
+}
+
+/* Code in text */
+p > code,
+li > code,
+dd > code,
+td > code {
+  background: #ffeff0;
+  word-wrap: break-word;
+  box-decoration-break: clone;
+  padding: 0.1rem 0.3rem 0.2rem;
+  border-radius: 0.2rem;
+}
 
 hr {
-    border-top: 1px solid #865A3E
+  border-top: 1px solid #865a3e;
 }
 
 .link {
-    text-decoration: none;
-    color: #573827;
-    transition: color 0.5s;
-  }
-  
+  text-decoration: none;
+  color: #573827;
+  transition: color 0.5s;
+}
+
 .link:hover {
-    color: #a39885;
-  }
+  color: #a39885;
+}
 
 .my-photo {
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-color: #282A2B;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #282a2b;
 }
 
 div.code-cont {
-    background-color: #282A2B;
-    color: chartreuse;
-    padding: 10px;
+  background-color: #282a2b;
+  color: chartreuse;
+  padding: 10px;
 }
 
 .footer {
-    padding-top: 30px;
-    text-align: center;
-    background-color: #282A2B;
+  padding-top: 30px;
+  text-align: center;
+  background-color: #282a2b;
 }
 
 .fa {
@@ -183,10 +180,10 @@ div.code-cont {
 }
 
 .footer-text {
-    color: white;
-    font-family: "montserratregular", monospace;
+  color: white;
+  font-family: "montserratregular", monospace;
 }
 
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
